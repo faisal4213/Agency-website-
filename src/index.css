@@ -1,0 +1,20 @@
+html, body, #root {
+  height: auto !important;
+  min-height: auto !important;
+  display: block !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: rgb(255, 255, 255);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
